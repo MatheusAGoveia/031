@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-labelledby="title desc">
+  <title id="title">Retícula irregular</title><desc id="desc">Textura vetorial em pontos negros para ser usada com moderação sobre o céu ou sobre fotografias.</desc>
+  <defs><pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse" patternTransform="rotate(-8)"><circle cx="2.5" cy="2.5" r="2.2" fill="#05080c"/></pattern><radialGradient id="fade"><stop offset="0" stop-color="#fff"/><stop offset=".58" stop-color="#fff" stop-opacity=".78"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><mask id="falloff"><rect width="360" height="360" fill="url(#fade)"/></mask></defs>
+  <path d="M0 22q46-42 112 0 40 23 96 8 69-17 133 22 41 92-7 154-29 38-8 86-40 65-114 49-65-35-112-7Q37 353 0 308Z" fill="url(#dots)" mask="url(#falloff)"/>
+</svg>

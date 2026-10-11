@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 365" role="img" aria-labelledby="title desc">
+  <title id="title">Bloco 31 — marca vetorial reconstruída</title>
+  <desc id="desc">Emblema angular cromado inspirado no pingente e no adesivo do perfil. Reconstrução autoral, não vetor do arquivo original.</desc>
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0.28" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".12" stop-color="#798996"/>
+      <stop offset=".22" stop-color="#f9fdff"/>
+      <stop offset=".41" stop-color="#a6afb4"/>
+      <stop offset=".51" stop-color="#343d45"/>
+      <stop offset=".62" stop-color="#ecf2f5"/>
+      <stop offset=".78" stop-color="#929da3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdfefe"/>
+      <stop offset=".38" stop-color="#56636e"/>
+      <stop offset=".7" stop-color="#f8fcfd"/>
+      <stop offset="1" stop-color="#28343c"/>
+    </linearGradient>
+    <g id="lettering" fill-rule="evenodd">
+      <path d="M0 0H56L70 11V38L59 49L72 59V90L55 103H0ZM25 21V40H45V21ZM25 61V82H47V61Z"/>
+      <path d="M81 0H108V77H151V102H81Z"/>
+      <path d="M172 0H228L242 15V88L227 103H172L158 88V15ZM186 24V79H214V24Z"/>
+      <path d="M267 0H326V28H297V24H284V78H297V74H326V101H267L252 86V15Z"/>
+      <path d="M351 0H407L421 15V88L406 103H351L337 88V15ZM365 24V79H393V24Z"/>
+    </g>
+    <g id="digits" fill-rule="evenodd">
+      <path d="M0 0H64L78 12V48L63 59L78 70V113L63 126H0V97H46V78H15V49H46V28H0Z"/>
+      <path d="M92 17L140 0H165V126H131V36L96 49Z"/>
+    </g>
+  </defs>
+  <!-- Irregular sticker silhouette and deliberately rough chrome rim echo the observed mark. -->
+  <path d="M29 88 48 66 39 45 80 53 96 23 119 40 146 20 167 35 189 15 209 35 232 9 252 32 276 15 301 39 325 20 346 41 371 21 393 52 425 34 438 68 476 67 465 96 494 113 478 136 505 159 483 183 503 204 471 220 480 248 450 256 448 291 412 284 391 321 362 304 331 337 305 317 276 351 252 324 222 351 196 320 165 337 148 303 115 319 106 286 70 291 70 260 37 248 48 220 16 203 39 179 12 157 36 130 21 112Z" fill="#090b0d" stroke="#080a0c" stroke-width="12" stroke-linejoin="bevel"/>
+  <path d="M29 88 48 66 39 45 80 53 96 23 119 40 146 20 167 35 189 15 209 35 232 9 252 32 276 15 301 39 325 20 346 41 371 21 393 52 425 34 438 68 476 67 465 96 494 113 478 136 505 159 483 183 503 204 471 220 480 248 450 256 448 291 412 284 391 321 362 304 331 337 305 317 276 351 252 324 222 351 196 320 165 337 148 303 115 319 106 286 70 291 70 260 37 248 48 220 16 203 39 179 12 157 36 130 21 112Z" fill="url(#chrome)" stroke="url(#edge)" stroke-width="5" stroke-linejoin="bevel"/>
+  <path d="M54 91 88 85 101 53 121 67 146 45 169 61 191 40 211 62 232 32 255 61 278 39 300 67 324 42 346 70 369 45 386 78 424 61 427 95 461 94 452 124 476 150 453 171 479 198 447 213 454 239 423 246 422 276 394 262 379 298 356 280 330 308 305 288 277 322 253 294 226 322 201 294 171 311 155 276 126 290 113 260 80 266 84 237 56 225 68 200 40 184 62 156 42 135 61 116Z" fill="none" stroke="#f8fcff" stroke-opacity=".65" stroke-width="3" stroke-linejoin="bevel"/>
+  <g transform="translate(54 111) skewY(-4)">
+    <use href="#lettering" x="7" y="9" fill="#06090d" stroke="#06090d" stroke-width="14" stroke-linejoin="bevel"/>
+    <use href="#lettering" fill="url(#chrome)" stroke="#f5f9fb" stroke-width="7" stroke-linejoin="bevel"/>
+    <use href="#lettering" fill="url(#chrome)" stroke="#11171c" stroke-width="2.5" stroke-linejoin="bevel"/>
+  </g>
+  <g transform="translate(169 218) skewX(-9)">
+    <use href="#digits" x="6" y="8" fill="#070a0e" stroke="#070a0e" stroke-width="15" stroke-linejoin="bevel"/>
+    <use href="#digits" fill="url(#chrome)" stroke="#fff" stroke-width="7" stroke-linejoin="bevel"/>
+    <use href="#digits" fill="url(#chrome)" stroke="#11171c" stroke-width="2.5" stroke-linejoin="bevel"/>
+  </g>
+  <path d="m111 137 18-6m39 59 22-5m73-67 15 7m90 68 18-9m-155 46 17-8m84 54 19-10M86 227l14-7" fill="none" stroke="#fff" stroke-opacity=".74" stroke-width="3" stroke-linecap="square"/>
+  <path d="m39 160-10 5 10 5-6 11 11-7 10 8-5-12 10-5-12-2-2-12Zm425-42-6 8-9-4 5 10-7 8 11-2 6 8 1-11 10-2-10-4Z" fill="#121920" stroke="#fff" stroke-width="3"/>
+</svg>

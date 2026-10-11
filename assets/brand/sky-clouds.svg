@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="title desc">
+  <title id="title">Céu azul com nuvens do Bloco 31 — interpretação vetorial</title>
+  <desc id="desc">Fundo vetorial estilizado para loader e hero. O céu fotográfico do Instagram é uma imagem raster e não foi vetorizado fielmente.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2=".88" y2="1">
+      <stop offset="0" stop-color="#004a9d"/>
+      <stop offset=".32" stop-color="#0870c9"/>
+      <stop offset=".72" stop-color="#258fd8"/>
+      <stop offset="1" stop-color="#8bc5e7"/>
+    </linearGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#fff" stop-opacity=".66"/><stop offset=".18" stop-color="#e6f6ff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".57" stop-color="#f6fbff"/>
+      <stop offset=".82" stop-color="#bbdbed"/>
+      <stop offset="1" stop-color="#7cb6dc"/>
+    </linearGradient>
+    <filter id="soft" x="-.2" y="-.2" width="1.4" height="1.4"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="mist" x="-.2" y="-.2" width="1.4" height="1.4"><feGaussianBlur stdDeviation="58"/></filter>
+    <g id="bank">
+      <path d="M-105 273q54-72 131-55 8-77 87-104 67-21 119 27 39-81 127-91 99-10 144 77 93-24 147 56 96-21 157 49 39-4 72 24v130H-105Z" fill="url(#cloud)"/>
+      <path d="M-105 272q76-63 162-26 15-82 91-98 63-13 92 45 43-77 116-74 73 3 103 69 88-39 148 33 79-16 124 42l39 56H-105Z" fill="#fff" opacity=".48"/>
+      <path d="M-78 338q106-37 160-1 101-56 168-7 108-49 168 2 94-37 161 0 92-43 153-11l64 39H-78Z" fill="#cee8f4" opacity=".78"/>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1356" cy="110" r="440" fill="url(#sun)"/>
+  <path d="M0 156q154-88 273-41t279 17q103-67 237-49 156 23 308-23 227-67 503 59" fill="none" stroke="#d7f0fb" stroke-opacity=".12" stroke-width="103" filter="url(#mist)"/>
+  <g opacity=".57" filter="url(#mist)"><use href="#bank" transform="translate(-355 307) scale(.86)"/><use href="#bank" transform="translate(880 149) scale(.84)"/></g>
+  <g opacity=".9" filter="url(#soft)"><use href="#bank" transform="translate(-115 573) scale(1.13)"/><use href="#bank" transform="translate(1110 418) scale(.62)"/></g>
+  <use href="#bank" transform="translate(-308 583) scale(1.17)" opacity=".92"/>
+  <use href="#bank" transform="translate(1116 429) scale(.58)" opacity=".8"/>
+  <use href="#bank" transform="translate(1135 -116) scale(.35)" opacity=".32"/>
+  <path d="M0 878q91-83 203-35 86-52 196-16 131-39 214 20 115-47 222 25 156-54 263 6 142-84 272 13 136-24 230 9v100H0Z" fill="#f4fbff" opacity=".5" filter="url(#soft)"/>
+</svg>
