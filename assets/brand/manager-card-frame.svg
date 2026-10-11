@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 530" role="img" aria-labelledby="title desc">
+  <title id="title">Moldura de card da gerência</title>
+  <desc id="desc">Moldura transparente de retrato com borda prateada, marcas azuis, arranhões e etiqueta oval. Construção vetorial inspirada no destaque GERÊNCIA.</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfdff"/>
+      <stop offset=".27" stop-color="#7d8b96"/>
+      <stop offset=".57" stop-color="#d8e0e4"/>
+      <stop offset="1" stop-color="#45515a"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0c3b87"/>
+      <stop offset=".5" stop-color="#1584e7"/>
+      <stop offset="1" stop-color="#091b46"/>
+    </linearGradient>
+    <pattern id="grain" width="23" height="29" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="5" r=".75" fill="#f3f7fa" opacity=".25"/>
+      <circle cx="17" cy="10" r=".55" fill="#116ad2" opacity=".52"/>
+      <path d="m8 24 3-1m9-4 2-2" stroke="#f1f7fb" stroke-width=".7" opacity=".18"/>
+    </pattern>
+  </defs>
+  <!-- Center remains transparent so the photo can be placed beneath this overlay. -->
+  <path d="M8 25 26 7 59 14 88 7 117 12 142 6 171 11 202 7 232 14 265 7 292 12 333 7 352 25 348 93 354 156 349 215 354 279 350 345 354 410 348 505 332 523 292 518 257 525 225 518 189 525 153 519 119 525 80 519 48 525 25 520 8 502 12 436 5 381 12 320 6 262 11 203 6 144 12 82Z" fill="#05090f" fill-opacity=".22" stroke="#080d13" stroke-width="11"/>
+  <rect x="20" y="19" width="320" height="486" rx="13" fill="none" stroke="url(#silver)" stroke-width="4"/>
+  <rect x="25" y="24" width="310" height="476" rx="10" fill="url(#grain)" stroke="#06090d" stroke-width="4"/>
+  <path d="M18 102V33L33 16h71M342 108V31l-17-14h-60M19 407v91l15 15h82m226-101v88l-16 13h-74" fill="none" stroke="url(#blue)" stroke-width="7" stroke-linecap="square" stroke-linejoin="bevel"/>
+  <path d="M33 75 29 33l42-4m226 0 35 5-3 38M29 451l4 48 48-5m221 1 28 4 3-42" fill="none" stroke="#e7f1f6" stroke-width="2" opacity=".65"/>
+  <path d="m16 42 18-5m3 28 29-7m248 15 25-8M9 264l30-9m280 46 30-15M22 454l18-7m285 21 25-10" stroke="#dae7ef" stroke-width="2" opacity=".36"/>
+  <path d="m19 229 23-11m260-43 43-12M33 138l18-7m261 253 30-8M25 342l34-15m242 112 35-11" stroke="#1769c1" stroke-width="3" opacity=".54"/>
+  <path d="M60 510q120-15 240 0" fill="none" stroke="#1572ce" stroke-width="4"/>
+  <path d="M112 509q68-10 136 0" fill="none" stroke="#cce8fb" stroke-width="1.5"/>
+  <path d="m43 39 3-10 3 10 10 3-10 3-3 10-3-10-10-3Zm263 0 2-8 3 8 8 2-8 3-3 8-2-8-8-3Z" fill="#f2f7fa"/>
+  <path d="M116 516h128" stroke="#0a0d12" stroke-width="11"/>
+  <rect x="84" y="472" width="192" height="34" rx="17" fill="#05080c" stroke="#dce6eb" stroke-width="1.5"/>
+  <path d="M92 480q87-9 176 0" fill="none" stroke="#fff" stroke-opacity=".23"/>
+</svg>
