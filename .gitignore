@@ -1,0 +1,25 @@
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/.next/
+**/.vinext/
+**/.wrangler/
+**/.sites-runtime/
+**/coverage/
+*.tsbuildinfo
+
+# Local environment, authentication and editor state
+.env*
+**/.env*
+.dev.vars*
+**/.dev.vars*
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+**/.codex/
+**/.agents/
+*.log
+
+# Local repository exports
+*.bundle
